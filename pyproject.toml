@@ -68,10 +68,9 @@ classifiers = [
     "Topic :: System :: Distributed Computing"
 ]
 
-# packages: The "Import" name(s) of package dependencies as defined in https://elements.q-ctrl.com/code/naming-conventions
+# packages: The "Import" name as defined in https://elements.q-ctrl.com/code/naming-conventions
 packages = [
-    { include = "qctrlcommons" },
-    { include = "qctrlvisualizer" },
+    { include = "qctrltemplate" },
 ]
 
 # urls: DO NOT EDIT
