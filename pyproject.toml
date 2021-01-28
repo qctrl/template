@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "<install name, e.g. qctrl-commons>"
+version = "0.0.0"
+description = "<project name, e.g. Q-CTRL Commons"
+license = "https://q-ctrl.com/terms" OR "Apache-2.0" OR ""
+authors = ["Q-CTRL <support@q-ctrl.com>"]
+maintainers = ["Q-CTRL <support@q-ctrl.com>"]
+readme = "DESCRIPTION.md"
+homepage = "https://q-ctrl.com"
+repository = "" OR "<link to GitHub repo, e.g. https://github.com/qctrl/python-open-controls>"
+documentation = "" OR "<link to documentation, e.g. https://docs.q-ctrl.com/references/python/qctrl/>"
+keywords = [
+    "q-ctrl",
+    "qctrl",
+    "quantum control"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: System :: Distributed Computing"
+]
+packages = [
+    { include = "<import name, e.g. qctrlcommons>" },
+]
+
+[tool.poetry.urls]
+GitHub = "https://github.com/qctrl"
+Twitter = "https://twitter.com/qctrlHQ"
