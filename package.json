@@ -17,29 +17,21 @@
   # description: The "Project" name as defined in https://elements.q-ctrl.com/code/naming-conventions
   "description": "Q-CTRL Template",
 
-  # main: DO NOT EDIT
-  "main": "index.js",
-
-  # scripts (optional)
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  # repository: A link to the public GitHub repository. Omit if the repository is private
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qctrl/template.git"
-  },
-
-  # keywords: DO NOT EDIT
+  # keywords: Add to this list as appropriate.
   "keywords": [
     "q-ctrl",
     "qctrl",
-    "quantum control"
+    "quantum",
+    "control"
   ],
 
-  # author: DO NOT EDIT
-  "author": "Q-CTRL <support@q-ctrl.com> (https://q-ctrl.com/)",
+  # homepage: DO NOT EDIT
+  "homepage": "https://q-ctrl.com",
+
+  "bugs": {
+    "url": "https://github.com/qctrl/template/issues",
+    "email" : "support@q-ctrl.com"
+  },
 
   # license: The license as defined in https://elements.q-ctrl.com/code/licensing
   # Commercial = "SEE LICENSE IN LICENSE"
@@ -47,12 +39,62 @@
   # Unlicensed = "UNLICENSED"
   "license": "Apache-2.0",
 
+  # author: DO NOT EDIT
+  "author": "Q-CTRL <support@q-ctrl.com> (https://q-ctrl.com/)",
 
-  "bugs": {
-    "url": "https://github.com/qctrl/template/issues",
-    "email" : "support@q-ctrl.com"
+  "funding": "",
+
+  "files": "",
+
+  # main: DO NOT EDIT
+  "main": "index.js",
+
+  "browser": "",
+
+  "bin": "",
+
+  "man": "",
+
+  "directories": "",
+
+  "directories.bin": "",
+
+  "directories.man": "",
+
+  # repository: A link to the public GitHub repository. Omit if the repository is private
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qctrl/template.git"
   },
 
-  # homepage: DO NOT EDIT
-  "homepage": "https://q-ctrl.com"
+  # scripts (optional)
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "config": "",
+
+  "dependencies": "",
+
+  "devDependencies": "",
+
+  "peerDependencies": "",
+
+  "peerDependenciesMeta": "",
+
+  "bundledDependencies": "",
+
+  "optionalDependencies": "",
+
+  "engines": "",
+
+  "os": "",
+
+  "cpu": "",
+
+  "private": "",
+
+  "publishConfig": "",
+
+  "workspaces": ""
 }
