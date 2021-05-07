@@ -19,7 +19,7 @@ version = "1.2.3"
 description = "Q-CTRL Template"
 
 # license: The license as defined in https://elements.q-ctrl.com/code/licensing
-# Commercial = "https://q-ctrl.com/terms/"
+# Commercial = "https://q-ctrl.com/terms"
 # Open source = "Apache-2.0"
 # Unlicensed = ""
 license = "Apache-2.0"
