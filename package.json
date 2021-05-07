@@ -2,6 +2,7 @@
 # - Copy this file to the root of your repository
 # - Update the values as per the instructions in the comments (let's pretend JSON supports comments)
 # - Remove all comments
+# - Add any other fields required for your package
 #
 # More information
 # - https://elements.q-ctrl.com/code/packaging#javascript
@@ -21,15 +22,14 @@
   "keywords": [
     "q-ctrl",
     "qctrl",
-    "quantum",
-    "control"
+    "quantum control"
   ],
 
   # homepage: DO NOT EDIT
   "homepage": "https://q-ctrl.com",
 
+  # bugs: DO NOT EDIT
   "bugs": {
-    "url": "https://github.com/qctrl/template/issues",
     "email" : "support@q-ctrl.com"
   },
 
@@ -40,61 +40,14 @@
   "license": "Apache-2.0",
 
   # author: DO NOT EDIT
-  "author": "Q-CTRL <support@q-ctrl.com> (https://q-ctrl.com/)",
-
-  "funding": "",
-
-  "files": "",
+  "author": "Q-CTRL <support@q-ctrl.com> (https://q-ctrl.com)",
 
   # main: DO NOT EDIT
   "main": "index.js",
-
-  "browser": "",
-
-  "bin": "",
-
-  "man": "",
-
-  "directories": "",
-
-  "directories.bin": "",
-
-  "directories.man": "",
 
   # repository: A link to the public GitHub repository. Omit if the repository is private
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qctrl/template.git"
-  },
-
-  # scripts (optional)
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  "config": "",
-
-  "dependencies": "",
-
-  "devDependencies": "",
-
-  "peerDependencies": "",
-
-  "peerDependenciesMeta": "",
-
-  "bundledDependencies": "",
-
-  "optionalDependencies": "",
-
-  "engines": "",
-
-  "os": "",
-
-  "cpu": "",
-
-  "private": "",
-
-  "publishConfig": "",
-
-  "workspaces": ""
+  }
 }
