@@ -31,7 +31,7 @@ authors = ["Q-CTRL <support@q-ctrl.com>"]
 maintainers = ["Q-CTRL <support@q-ctrl.com>"]
 
 # readme: DO NOT EDIT - the DESCRIPTION.md file as defined in https://github.com/qctrl/template/blob/master/DESCRIPTION.md
-readme = "DESCRIPTION.md"
+readme = "README.md"
 
 # homepage: DO NOT EDIT
 homepage = "https://q-ctrl.com"
