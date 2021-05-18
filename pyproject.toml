@@ -9,13 +9,13 @@
 
 [tool.poetry]
 
-# name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions
+# name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
 name = "qctrl-template"
 
 # version: The "Version" as defined in https://elements.q-ctrl.com/code/releases#version
 version = "1.2.3"
 
-# description: The "Project" name as defined in https://elements.q-ctrl.com/code/naming-conventions
+# description: The "Package" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
 description = "Q-CTRL Template"
 
 # license: The license as defined in https://elements.q-ctrl.com/code/licensing
@@ -30,8 +30,8 @@ authors = ["Q-CTRL <support@q-ctrl.com>"]
 # maintainers: DO NOT EDIT
 maintainers = ["Q-CTRL <support@q-ctrl.com>"]
 
-# readme: DO NOT EDIT - the DESCRIPTION.md file as defined in https://github.com/qctrl/template/blob/master/DESCRIPTION.md
-readme = "DESCRIPTION.md"
+# readme: DO NOT EDIT - the README.md file as defined in https://github.com/qctrl/template/blob/master/README.md
+readme = "README.md"
 
 # homepage: DO NOT EDIT
 homepage = "https://q-ctrl.com"
