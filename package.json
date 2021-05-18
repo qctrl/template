@@ -30,6 +30,7 @@
 
   # bugs: DO NOT EDIT
   "bugs": {
+    "url" : "https://q-ctrl.com/contact",
     "email" : "support@q-ctrl.com"
   },
 
@@ -40,7 +41,11 @@
   "license": "Apache-2.0",
 
   # author: DO NOT EDIT
-  "author": "Q-CTRL <support@q-ctrl.com> (https://q-ctrl.com)",
+  "author": {
+    "name": "Q-CTRL",
+    "email": "support@q-ctrl.com",
+    "url": "https://q-ctrl.com"
+  },
 
   # main: DO NOT EDIT
   "main": "index.js",
