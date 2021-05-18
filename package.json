@@ -15,7 +15,7 @@
   # version: The "Version" as defined in https://elements.q-ctrl.com/code/releases#version
   "version": "1.2.3",
 
-  # description: The "Project" name as defined in https://elements.q-ctrl.com/code/naming-conventions
+  # description: The "Package" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
   "description": "Q-CTRL Template",
 
   # keywords: Add to this list as appropriate.
