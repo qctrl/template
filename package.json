@@ -9,7 +9,7 @@
 # - https://docs.npmjs.com/configuring-npm/package-json
 
 {
-  # name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions
+  # name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
   "name": "@qctrl/template",
 
   # version: The "Version" as defined in https://elements.q-ctrl.com/code/releases#version
