@@ -41,4 +41,4 @@ See [Contributors](https://github.com/qctrl/[REPOSITORY]/graphs/contributors).
   - Delete this entire [License](#license) section.
 - **DELETE THIS LIST**.
 
-See [LICENSE](LICENSE).
+See [LICENSE](https://github.com/qctrl/[REPOSITORY]/blob/master/LICENSE).
