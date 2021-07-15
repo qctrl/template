@@ -37,7 +37,6 @@ See [Contributors](https://github.com/qctrl/[REPOSITORY]/graphs/contributors).
 - If **Unlicensed:**
   - Delete `LICENSE`.
   - Delete `LICENSE-commercial`.
-  - Delete the "License" item in the [Table of contents](#table-of-contents).
   - Delete this entire [License](#license) section.
 - **DELETE THIS LIST**.
 
