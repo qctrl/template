@@ -1,5 +1,5 @@
                             Q-CTRL Terms of service
-                            Updated 5 November 2020
+                            Updated 22 February 2022
                             https://q-ctrl.com/terms
 
 BY ACCEPTING THESE TERMS OF SERVICE YOU ARE ENTERING INTO A BINDING AGREEMENT
@@ -52,6 +52,9 @@ Summary
       Information on what changes when you're using a free or trial version of
       the platform.
 
+  13. Addendum for Black Opal users
+      Information on what changes when you're using Black Opal.
+
 1. Definitions
 
 "Access Method" shall mean the means through which we make the platform
@@ -75,7 +78,8 @@ but does not include any information that:
   (d) is independently developed without access to the confidential information.
 
 "Credentials" shall mean credentials used by users to access the platform,
-including email addresses, passwords, authentication tokens and other log in
+including email addresses, passwords, authentication tokens, API keys, hardware
+keys, license keys and other log in, authentication and/or access control
 methods.
 
 "Data" shall mean any data inputted or uploaded by you, or with your authority,
@@ -100,10 +104,11 @@ subscribed to (or subsequently change to) with such access rights, support,
 features and limitations published by us at the time of subscription (or
 change).
 
-"Platform" shall mean the software platform made available by us from time to
-time via the access method, as may be changed or updated from time to time by
-us. The features of the platform available to you will depend on the plan you
-have subscribed to.
+"Platform" shall mean the software made available by us from time to time via
+the access method, as may be changed or updated from time to time by us. The
+features of the platform available to you will depend on the plan you have
+subscribed to and whether the platform is hosted by us, hosted on-premises, or
+installed locally.
 
 "Q-CTRL" shall mean Q-CTRL Pty Ltd (ABN 78 622 325 535) of Level 10, 171
 Clarence Street, SYDNEY NSW 2000 Australia (also referred to as "we", "us" or
@@ -763,3 +768,37 @@ any conflict arises these additional terms will prevail:
 
   (c) you will not be entitled to technical support, although we may elect to
       provide this at our sole discretion.
+
+13. Addendum for Black Opal users
+
+13.1 License to use
+
+Unless otherwise specified, Black Opal is licensed as a personal, non-exclusive,
+non-transferable, limited license product, solely for internal, non-commercial
+use. Examples of non-commercial uses include academic research, personal
+experimentation, or teaching and educational purposes. Non-commercial means that
+the licensee is prohibited from using the product and its content to derive
+commercial advantage or monetary compensation. Please contact Q-CTRL if you want
+to reuse the content for any purpose other than for personal education.
+
+13.2 Restrictions
+
+You agree that you shall not, and shall not authorize any third party to:
+
+  (a) use Black Opal or any part thereof for any commercial or for-profit
+      purpose or any other purpose other than as permitted in this agreement;
+
+  (b) modify, adapt, decompile, disassemble, translate into another computer
+      language, create derivative works of, or otherwise reverse engineer Black
+      Opal, or disclose any trade secrets or any other intellectual property
+      relating to Black Opal;
+
+  (c) license, sublicense, distribute, sell, lease, transfer, assign, trade,
+      rent or publish Black Opal or any part thereof and/or copies thereof, to
+      any third party;
+
+  (d) make copies of Black Opal;
+
+  (e) remove any copyright or other notices from Black Opal; or
+
+  (f) use, without its express permission, the name of Q-CTRL.
