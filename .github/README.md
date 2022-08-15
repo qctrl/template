@@ -30,5 +30,6 @@ See [Contributors](https://github.com/qctrl/[REPOSITORY]/graphs/contributors).
 
 - If **Unlicensed:**
   - Delete this entire [License](#license) section.
+- **DELETE THIS LIST**.
 
 See [LICENSE](https://github.com/qctrl/[REPOSITORY]/blob/master/LICENSE).
