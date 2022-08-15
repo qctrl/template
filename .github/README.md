@@ -28,15 +28,7 @@ See [Contributors](https://github.com/qctrl/[REPOSITORY]/graphs/contributors).
 
 ## License
 
-- [Choose the appropriate license](https://elements.q-ctrl.com/code/licensing/).
-- If **Commercial:**
-  - Delete `LICENSE`.
-  - Rename `LICENSE-commercial` to `LICENSE`.
-- If **Open source:**
-  - Delete `LICENSE-commercial`.
 - If **Unlicensed:**
-  - Delete `LICENSE`.
-  - Delete `LICENSE-commercial`.
   - Delete this entire [License](#license) section.
 - **DELETE THIS LIST**.
 
