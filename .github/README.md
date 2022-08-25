@@ -6,15 +6,19 @@ A good description is clear, short, and to the point. Describe the purpose of th
 
 Describe how to install the project locally then **DELETE THIS LINE**. For example:
 
-1. `git clone git@github.com:qctrl/[REPOSITORY].git`
-1. `cd [REPOSITORY]`
-1. `install...`
+```shell
+git clone git@github.com:qctrl/[REPOSITORY].git
+cd [REPOSITORY]
+install...
+```
 
 ## Usage
 
 Describe how to use the project after installation then **DELETE THIS LINE**. For example:
 
-1. `run...`
+```shell
+run...
+```
 
 ## Contributing
 
