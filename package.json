@@ -5,17 +5,17 @@
 # - Add any other fields required for your package
 #
 # More information
-# - https://elements.q-ctrl.com/code/packaging#javascript
+# - https://code.q-ctrl.com/packaging#javascript
 # - https://docs.npmjs.com/configuring-npm/package-json
 
 {
-  # name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
+  # name: The "Install" name as defined in https://code.q-ctrl.com/naming-conventions#packages
   "name": "@qctrl/template",
 
-  # version: The "Version" as defined in https://elements.q-ctrl.com/code/releases#version
+  # version: The "Version" as defined in https://code.q-ctrl.com/releases#version
   "version": "1.2.3",
 
-  # description: The "Package" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
+  # description: The "Package" name as defined in https://code.q-ctrl.com/naming-conventions#packages
   "description": "Q-CTRL Template",
 
   # keywords: Add to this list as appropriate.
@@ -57,7 +57,7 @@
     "email" : "support@q-ctrl.com"
   },
 
-  # license: The license as defined in https://elements.q-ctrl.com/code/licensing
+  # license: The license as defined in https://code.q-ctrl.com/licensing
   # Commercial = "SEE LICENSE IN LICENSE"
   # Open source = "Apache-2.0"
   # Unlicensed = "UNLICENSED"
