@@ -4,21 +4,21 @@
 # - Remove all comments
 #
 # More information
-# - https://elements.q-ctrl.com/code/packaging#python
+# - https://code.q-ctrl.com/packaging#python
 # - https://python-poetry.org/docs/pyproject/
 
 [tool.poetry]
 
-# name: The "Install" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
+# name: The "Install" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
 name = "qctrl-template"
 
-# version: The "Version" as defined in https://elements.q-ctrl.com/code/releases#version
+# version: The "Version" as defined in https://code.q-ctrl.com/releases#version
 version = "1.2.3"
 
-# description: The "Package" name as defined in https://elements.q-ctrl.com/code/naming-conventions/#packages
+# description: The "Package" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
 description = "Q-CTRL Template"
 
-# license: The license as defined in https://elements.q-ctrl.com/code/licensing
+# license: The license as defined in https://code.q-ctrl.com/licensing
 # Commercial = "https://q-ctrl.com/terms"
 # Open source = "Apache-2.0"
 # Unlicensed = ""
@@ -39,7 +39,7 @@ homepage = "https://q-ctrl.com"
 # repository: A link to the public GitHub repository or "" if the repository is private
 repository = "https://github.com/qctrl/template"
 
-# documentation: A link to the "User documentation" as defined in https://elements.q-ctrl.com/code/documentation#user-documentation
+# documentation: A link to the "User documentation" as defined in https://code.q-ctrl.com/documentation#user-documentation
 documentation = ""
 
 # keywords: DO NOT EDIT
@@ -92,7 +92,7 @@ classifiers = [
     "Topic :: System :: Distributed Computing"
 ]
 
-# packages: The "Import" name as defined in https://elements.q-ctrl.com/code/naming-conventions
+# packages: The "Import" name as defined in https://code.q-ctrl.com/naming-conventions
 packages = [
     { include = "qctrltemplate" },
 ]
