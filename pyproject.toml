@@ -72,7 +72,7 @@ keywords = [
     "qudit"
 ]
 
-# classifiers: Do not edit, unless the package only supports a subset of Pythpn versions.
+# classifiers: Do not edit, unless the package only supports a subset of Python versions.
 # In this case, remove unsupported versions from the classifiers.
 classifiers = [
     "Development Status :: 5 - Production/Stable",
