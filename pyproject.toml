@@ -46,6 +46,7 @@ documentation = ""
 keywords = [
     "black opal",
     "boulder opal",
+    "fire opal",
     "nisq",
     "open controls",
     "q control",
