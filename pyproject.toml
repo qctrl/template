@@ -105,7 +105,7 @@ packages = [
 LinkedIn = "https://www.linkedin.com/company/q-ctrl/"
 Facebook = "https://www.facebook.com/qctrl"
 Twitter = "https://twitter.com/qctrlHQ"
-YouTube = "https://www.youtube.com/c/qctrl"
+YouTube = "https://www.youtube.com/qctrl"
 GitHub = "https://github.com/qctrl"
 
 # Add the package dependencies below this heading in the form 'package_name = "package_version"'.
