@@ -112,7 +112,7 @@ GitHub = "https://github.com/qctrl"
 [tool.poetry.dependencies]
 
 # Remove the block below if the package is open source, or if the package is not
-# expected to use dependencies that are only available the Internal PyPI
+# expected to use dependencies that are only available in the Internal PyPI
 # (such as development versions of packages).
 [[tool.poetry.source]]
 name = "Q-CTRL PyPI"
