@@ -108,13 +108,8 @@ Twitter = "https://twitter.com/qctrlHQ"
 YouTube = "https://www.youtube.com/qctrl"
 GitHub = "https://github.com/qctrl"
 
-# Add the package dependencies below this heading in the form 'package_name = "package_version"'.
-[tool.poetry.dependencies]
-
-# Remove the block below if the package is open source, or if the package is not
-# expected to use dependencies that are only available in the Internal PyPI
-# (such as development versions of packages).
-[[tool.poetry.source]]
-name = "Q-CTRL PyPI"
-url = "https://pypi.q-ctrl.com/simple"
-secondary = true
+# Uncomment the block below if the package requires access to the Internal PyPI.
+# [[tool.poetry.source]]
+# name = "Q-CTRL PyPI"
+# url = "https://pypi.q-ctrl.com/simple"
+# secondary = true
