@@ -107,3 +107,9 @@ Facebook = "https://www.facebook.com/qctrl"
 Twitter = "https://twitter.com/qctrlHQ"
 YouTube = "https://www.youtube.com/qctrl"
 GitHub = "https://github.com/qctrl"
+
+# Uncomment the block below if the package requires access to the Internal PyPI.
+# [[tool.poetry.source]]
+# name = "Q-CTRL PyPI"
+# url = "https://pypi.q-ctrl.com/simple"
+# secondary = true
