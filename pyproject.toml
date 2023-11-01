@@ -109,8 +109,14 @@ Twitter = "https://twitter.com/qctrlHQ"
 YouTube = "https://www.youtube.com/qctrl"
 GitHub = "https://github.com/qctrl"
 
-# Uncomment the block below if the package requires access to the Internal PyPI.
+# Uncomment the following 2 blocks if the package requires access to the Internal PyPI.
+# # Use the internal PyPI as the main source: DO NOT EDIT
 # [[tool.poetry.source]]
 # name = "Q-CTRL PyPI"
 # url = "https://pypi.q-ctrl.com/simple"
-# secondary = true
+# priority = "primary"
+
+# # Use the public PyPI as the supplemental source: DO NOT EDIT
+# [[tool.poetry.source]]
+# name = "PyPI"
+# priority = "supplemental"
