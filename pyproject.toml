@@ -36,10 +36,11 @@ readme = "README.md"
 # homepage: DO NOT EDIT
 homepage = "https://q-ctrl.com"
 
-# repository: A link to the public GitHub repository or "" if the repository is private
+# repository: A link to the public GitHub repository. Remove it if the repository is private.
 repository = "https://github.com/qctrl/template"
 
 # documentation: A link to the "User documentation" as defined in https://code.q-ctrl.com/documentation#user-documentation
+# Remove it if not needed.
 documentation = ""
 
 # keywords: DO NOT EDIT
