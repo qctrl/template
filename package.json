@@ -79,4 +79,10 @@
     "type": "git",
     "url": "git+https://github.com/qctrl/template.git"
   }
+
+  # engines: The minimum engine versions. Add to this list as appropriate.
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8.6.12"
+  },
 }
