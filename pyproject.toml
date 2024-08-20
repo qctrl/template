@@ -108,14 +108,8 @@ X = "https://x.com/qctrlHQ"
 YouTube = "https://www.youtube.com/qctrl"
 GitHub = "https://github.com/qctrl"
 
-# Uncomment the following 2 blocks if the package requires access to the Internal PyPI.
-# # Use the internal PyPI as the main source: DO NOT EDIT
+# Uncomment the following block if the package requires access to the Internal PyPI.
 # [[tool.poetry.source]]
-# name = "Q-CTRL PyPI"
-# url = "https://pypi.q-ctrl.com/simple"
+# name = 'Artifactory'
+# url = 'https://qctrl.jfrog.io/artifactory/api/pypi/qctrl/simple'
 # priority = "primary"
-
-# # Use the public PyPI as the supplemental source: DO NOT EDIT
-# [[tool.poetry.source]]
-# name = "PyPI"
-# priority = "supplemental"
