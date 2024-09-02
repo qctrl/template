@@ -7,6 +7,13 @@
 #    - Move top level keys to the [tool.ruff] section
 #    - Prefix all other sections with "tool.ruff." (e.g. [format] -> [tool.ruff.format])
 
+# Note that this configuration has ruff in a reasonably strict configuration.
+# While it doesn't get in the way much when working in an already clean codebase,
+#  it can be painful to convert new code to this standard.
+# It is easier to start adding rules as one by one, rather than starting with all rules enabled.
+# This can be done by changing the `select` key in the [lint] section to a list of rules to enable.
+
+
 exclude = [
   "setup.py",
   "**/migrations/**",  # Django
@@ -30,10 +37,10 @@ ignore = [
   "D100",     # missing-module-docstring
   "DJ008",    # Model does not define `__str__` method
   "FIX",      # Line contains TODO
-  "PLR0912",  # too-many-branches
-  "PLR0913",  # too-many-arguments
-  "PLR0914",  # too-many-locals
-  "PLR0915",  # too-many-statements
+  "PLR0912",  # pylint's too-many-branches
+  "PLR0913",  # pylint's too-many-arguments
+  "PLR0914",  # pylint's too-many-locals
+  "PLR0915",  # pylint's too-many-statements
   "PT004",    # Fixture does not return anything, add leading underscore
   "TD",       # Invalid TODO tag
 
@@ -71,8 +78,7 @@ extend-select = [
 ]
 
 [lint.per-file-ignores]
-# ignore rules in test files
-"{test_,conftest,*pytest_plugin}*" = [
+"{test_,conftest,*pytest_plugin}*" = [  # pytest files
   "ARG001",  # unused arg (pytest fixtures)
   "ANN",     # missing type annotation (pytest fixtures)
   "D",       # docstrings (unnecessary in tests)
