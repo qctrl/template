@@ -70,7 +70,7 @@ extend-select = [
   "D213",  # Multi-line docstring summary should start at the second line
 ]
 
-[tool.ruff.lint.per-file-ignores]
+[lint.per-file-ignores]
 # ignore rules in test files
 "{test_,conftest,*pytest_plugin}*" = [
   "ARG001",  # unused arg (pytest fixtures)
