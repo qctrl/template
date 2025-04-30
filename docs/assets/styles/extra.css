@@ -1,0 +1,21 @@
+/* See https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss for complete color styles */
+/* Colors: https://www.figma.com/file/4blSyNEaMXR0LQSH0pJMJr/01-Product-Library */
+/* Example based off: https://github.com/aws-samples/aws-deployment-pipeline-reference-architecture/blob/main/docs/stylesheets/extra.css */
+:root > * {
+  --qctrl-color-black: #0F0D16;
+  --qctrl-color-white: #FFFFFF;
+  --qctrl-color-gray: #E5E4E9;
+  --qctrl-color-voilet: #680CE9;
+  --qctrl-color-blue: #76AAEF;
+  --qctrl-color-teal: #3CCBC5;
+  --qctrl-color-green: #40D066;
+  --qctrl-color-yellow: #D4CD52;
+  --qctrl-color-orange: #F2995B;
+  --qctrl-color-red: #F87478;
+  --qctrl-color-pink: #F373C0;
+
+  --md-primary-fg-color: var(--qctrl-color-voilet);
+  --md-primary-bg-color: var(--qctrl-color-white);
+  --md-accent-fg-color: var(--qctrl-color-voilet);
+  --md-accent-bg-color: var(--qctrl-color-black);
+}

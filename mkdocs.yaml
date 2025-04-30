@@ -1,0 +1,52 @@
+repo_name: qctrl/template
+repo_url: https://github.com/qctrl/template
+site_name: Q-CTRL Template
+site_url: https://qctrl.github.io/qctrl/template
+
+docs_dir: docs/
+
+extra_css:
+  - assets/styles/extra.css
+
+# https://www.mkdocs.org/user-guide/configuration/#hooks
+hooks:
+  - docs/hooks.py
+
+# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+markdown_extensions:
+  - attr_list
+  - admonition # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#admonition
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+theme:
+  favicon: assets/images/favicon.ico
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.footer
+    - search.highlight
+  logo: 'https://dl.dropboxusercontent.com/scl/fi/lp46z7mvkufos3t86wf6a/q-ctrl-horizontal-light-rgb.png?rlkey=5btccbn790gjfpnijfgr010kb&raw=1'
+  name: 'material'
+  palette:
+    # Palette toggle for light mode.
+    - scheme: default
+      toggle:
+        icon: material/brightness-5
+        name: Switch to dark mode
+    # Palette toggle for dark mode.
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
