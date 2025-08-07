@@ -1,7 +1,8 @@
-repo_name: qctrl/template
-repo_url: https://github.com/qctrl/template
-site_name: Q-CTRL Template
-site_url: https://qctrl.github.io/qctrl/template
+---
+repo_name: qctrl/template # Replace "template" with your repository name
+repo_url: https://github.com/qctrl/template # Replace "template" with your repository name
+site_name: Q-CTRL Template # Replace "Template" with your repository name
+site_url: https://qctrl.github.io/template # Replace "template" with your repository name
 
 docs_dir: docs/
 
