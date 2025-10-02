@@ -23,6 +23,6 @@ To serve your site from the [`gh-pages`](https://docs.github.com/en/pages/gettin
 
 ### Plugins to consider
 
-- [docstrings](https://mkdocstrings.github.io/)
-- [mkdocs-jupyter/](https://pypi.org/project/mkdocs-jupyter/)
+- [mkdocstrings](https://mkdocstrings.github.io/)
+- [mknotebooks](https://github.com/greenape/mknotebooks)
 - [mike](https://pypi.org/project/mike/)
