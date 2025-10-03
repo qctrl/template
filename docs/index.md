@@ -1,6 +1,8 @@
 # Home
 
-Add folders and Markdown files in the `docs/` directory
+To turn your project docs into a website, first start by adding folders and Markdown files in the `docs/` directory.
+
+It is recommended to use the [Q-CTRL MkDocs Theme](https://github.com/qctrl/mkdocs-theme), which provides a highly opinionated, low configuration theme for making consistent Q-CTRL project documentation. For more information, see the [Q-CTRL MkDocs documentation](https://crispy-dollop-z25wl2k.pages.github.io/).
 
 ## Enabling GitHub Pages
 
