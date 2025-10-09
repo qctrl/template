@@ -82,7 +82,7 @@ dynamic = ["classifiers", "dependencies"]
 # TODO: Update `Documentation` with a link to the "User documentation" as defined in https://code.q-ctrl.com/documentation#user-documentation
 # - Remove otherwise.
 [project.urls]
-Source = "https://github.com/qctrl/[repository]
+Source = "https://github.com/qctrl/[repository]"
 Homepage = "https://q-ctrl.com"
 Documentation = "https://docs.q-ctrl.com"
 LinkedIn = "https://www.linkedin.com/company/q-ctrl/"
