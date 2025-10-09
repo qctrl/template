@@ -4,78 +4,105 @@
 # - Remove all comments
 #
 # More information
+# - https://packaging.python.org/en/latest/specifications/pyproject-toml/
 # - https://code.q-ctrl.com/packaging#python
 # - https://python-poetry.org/docs/pyproject/
 
-[tool.poetry]
+[project]
 
-# name: The "Install" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
+# TODO: Update with the "Install" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
 name = "qctrl-template"
 
-# version: The "Version" as defined in https://code.q-ctrl.com/releases#version
-version = "1.2.3"
-
-# description: The "Package" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
+# TODO: Update with the "Package" name as defined in https://code.q-ctrl.com/naming-conventions/#packages
 description = "Q-CTRL Template"
 
-# license: The license as defined in https://code.q-ctrl.com/licensing
-# Commercial = "https://q-ctrl.com/terms"
-# Open source = "Apache-2.0"
-# Unlicensed = ""
+# TODO: Update with the supported Python versions
+requires-python = ">=3.13, <3.14"
+
+# TODO: Update with the "Version" as defined in https://code.q-ctrl.com/releases#version
+# - Remove if the repository does not maintain a version
+version = "0.1.0"
+
+# TODO: Update with the license as defined in https://code.q-ctrl.com/licensing
+# - Commercial = "https://q-ctrl.com/terms"
+# - Open source = "Apache-2.0"
+# - Unlicensed = ""
 license = "Apache-2.0"
 
-# authors: DO NOT EDIT
-authors = ["Q-CTRL <support@q-ctrl.com>"]
-
-# maintainers: DO NOT EDIT
-maintainers = ["Q-CTRL <support@q-ctrl.com>"]
-
-# readme: DO NOT EDIT - the README.md file as defined in https://github.com/qctrl/template/blob/master/README.md
+# DO NOT EDIT - the README.md file as defined in https://github.com/qctrl/template/blob/master/README.md
 readme = "README.md"
 
-# homepage: DO NOT EDIT
-homepage = "https://q-ctrl.com"
-
-# repository: A link to the public GitHub repository. Remove it if the repository is private.
-repository = "https://github.com/qctrl/template"
-
-# documentation: A link to the "User documentation" as defined in https://code.q-ctrl.com/documentation#user-documentation
-# Remove it if not needed.
-documentation = ""
-
-# keywords: DO NOT EDIT
-keywords = [
-    "black opal",
-    "boulder opal",
-    "fire opal",
-    "nisq",
-    "open controls",
-    "q control",
-    "q ctrl",
-    "q-control",
-    "q-ctrl",
-    "qcontrol",
-    "qctrl",
-    "quantum",
-    "quantum algorithms",
-    "quantum circuits",
-    "quantum coding",
-    "quantum coding software",
-    "quantum computing",
-    "quantum control",
-    "quantum control software",
-    "quantum control theory",
-    "quantum engineering",
-    "quantum error correction",
-    "quantum firmware",
-    "quantum fundamentals",
-    "quantum sensing",
-    "qubit",
-    "qudit"
+# DO NOT EDIT
+authors = [
+  {name = "Q-CTRL", email = "support@q-ctrl.com>"}
 ]
 
-# classifiers: Do not edit, unless the package only supports a subset of Python versions.
-# In that case, remove unsupported versions from the classifiers.
+# DO NOT EDIT
+maintainers = [
+  {name = "Q-CTRL", email = "support@q-ctrl.com>"}
+]
+
+# DO NOT EDIT
+keywords = [
+  "black opal",
+  "boulder opal",
+  "fire opal",
+  "ironstone opal",
+  "nisq",
+  "open controls",
+  "q control",
+  "q ctrl",
+  "q-control",
+  "q-ctrl",
+  "qcontrol",
+  "qctrl",
+  "quantum",
+  "quantum algorithms",
+  "quantum circuits",
+  "quantum coding",
+  "quantum coding software",
+  "quantum computing",
+  "quantum control",
+  "quantum control software",
+  "quantum control theory",
+  "quantum engineering",
+  "quantum error correction",
+  "quantum firmware",
+  "quantum fundamentals",
+  "quantum navigation",
+  "quantum sensing",
+  "qubit",
+  "qudit",
+]
+
+# TODO: Remove `classifiers` if the repository does not implement a publicly available package
+dynamic = ["classifiers", "dependencies"]
+
+# TODO: Replace `[repository]` in the `Source` with the repository name
+# TODO: Update `Documentation` with a link to the "User documentation" as defined in https://code.q-ctrl.com/documentation#user-documentation
+# - Remove otherwise.
+[project.urls]
+Source = "https://github.com/qctrl/[repository]"
+Homepage = "https://q-ctrl.com"
+Documentation = "https://docs.q-ctrl.com"
+LinkedIn = "https://www.linkedin.com/company/q-ctrl/"
+Facebook = "https://www.facebook.com/qctrl"
+X = "https://x.com/qctrlHQ"
+YouTube = "https://www.youtube.com/qctrl"
+GitHub = "https://github.com/qctrl"
+
+# DO NOT EDIT
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+
+# TODO: Remove if the repository implements a package
+package-mode = false
+
+# TODO: Remove if the repository does not implement a publicly available package
+# - Update supported Python versions otherwise.
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
@@ -84,10 +111,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Natural Language :: English",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
     "Topic :: Internet :: WWW/HTTP",
     "Topic :: Scientific/Engineering :: Physics",
     "Topic :: Scientific/Engineering :: Visualization",
@@ -95,18 +118,11 @@ classifiers = [
     "Topic :: System :: Distributed Computing"
 ]
 
-# packages: The "Import" name as defined in https://code.q-ctrl.com/naming-conventions
+# TODO: Update with the "Import" name as defined in https://code.q-ctrl.com/naming-conventions
+# - Remove if the repository doesn't implement a package
 packages = [
     { include = "qctrltemplate" },
 ]
-
-# urls: DO NOT EDIT
-[tool.poetry.urls]
-LinkedIn = "https://www.linkedin.com/company/q-ctrl/"
-Facebook = "https://www.facebook.com/qctrl"
-X = "https://x.com/qctrlHQ"
-YouTube = "https://www.youtube.com/qctrl"
-GitHub = "https://github.com/qctrl"
 
 # Uncomment the following 2 blocks if the package requires access to the internal PyPI.
 # # Use the public PyPI as the main source: DO NOT EDIT
