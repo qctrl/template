@@ -1,2 +1,12 @@
-# Exclude everything by default
-**
+.dockerignore
+.editorconfig
+.git
+.github
+.gitignore
+.hub_pass
+.hub_user
+.secrets
+.token
+Dockerfile*
+ci
+docker-compose.yaml
