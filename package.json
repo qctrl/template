@@ -23,6 +23,7 @@
     "black opal",
     "boulder opal",
     "fire opal",
+    "ironstone opal",
     "nisq",
     "open controls",
     "q control",
@@ -44,6 +45,7 @@
     "quantum error correction",
     "quantum firmware",
     "quantum fundamentals",
+    "quantum navigation",
     "quantum sensing",
     "qubit",
     "qudit"
